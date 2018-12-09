@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Container } from 'reactstrap';
+
+// CSS
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // FontAwesome Libray
@@ -9,13 +13,20 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 
 // Components
 import AppBar from './Components/AppBar';
+import Invoice from './Components/Invoice';
 
 library.add(fas, fab, far);
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <AppBar />
+        <div className="wrapper">
+          <Container>
+            <Invoice />
+          </Container>
+        </div>
       </div>
     );
   }

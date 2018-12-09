@@ -1,0 +1,46 @@
+.invoice-title{
+    font-weight: bold;
+}
+.invoice-title > span{
+    font-weight: normal;
+    color: #2a2a2a;
+    margin-left: 6px;
+    font-size: 1.2rem;
+}
+.info, .bill, .balance{
+    padding: 15px;
+}
+.info, .bill{
+    border-right: 1px solid #f2f2f4;
+}
+.info{
+    font-size: 0.8rem;
+}
+.info .info-desc{
+    text-align: right;
+    font-weight: bold;
+}
+.bill .bill-title, .balance .balance-title, .balance .balance-number{
+    font-weight: bold;
+}
+.balance .balance-number{
+    margin-top : 12px;
+    color: #f89d10;
+    display: block;
+}
+.info .info-desc, .info .info-title
+{
+    margin-bottom: 12px;
+    white-space: nowrap;
+}
+.info .info-desc:last-of-type, .info .info-title:last-of-type
+{
+    margin-bottom: 0;
+}
+@media (max-width: 991px)
+{
+    .info, .bill{
+        border-right: none;
+        border-bottom: 1px solid #f2f2f4;
+    }
+}
