@@ -28,7 +28,7 @@ export default class Example extends Component {
       <div>
         <Navbar light expand="lg" className="appbar">
           <Container>
-            <NavbarBrand href="/"><FontAwesomeIcon icon="square" /></NavbarBrand>
+            <NavbarBrand href="#"><FontAwesomeIcon icon="square" /></NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="mr-auto mainmenu" navbar>
