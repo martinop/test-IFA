@@ -22,7 +22,7 @@ export default class Invoice extends Component {
           <span href="#" id="InvoiceNumber">S03834754</span>
         </h3>
         <Tooltip
-          placement="bottom"
+          placement="top"
           isOpen={this.state.tooltipOpen}
           target="InvoiceNumber"
           toggle={this.toggle}
