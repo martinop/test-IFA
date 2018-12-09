@@ -38,10 +38,6 @@
     .info .info-desc{
         text-align: left;
     }
-    .info .info-desc:last-of-type
-    {
-        margin-top: 0 !important;
-    }
     .extra-m
     {
         margin-top: 0px;
