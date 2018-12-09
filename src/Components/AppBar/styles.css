@@ -45,7 +45,7 @@
     height: 40px;
     width: 40px;
 }
-@media (max-width: 767px){
+@media (max-width: 991px){
     .userarea.navbar-nav{
         flex-direction: row !important;
         justify-content: center;
