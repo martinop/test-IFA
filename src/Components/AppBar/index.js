@@ -1,4 +1,6 @@
-import React from 'react';
+import './styles.css';
+
+import React, { Component } from 'react';
 import {
   Badge,
   Collapse,
@@ -15,10 +17,9 @@ import {
   DropdownItem
 } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './styles.css';
 import Avatar from './avatar.png';
 
-export default class Example extends React.Component {
+export default class Example extends Component {
   state = { isOpen: false }
   toggle = () =>
     this.setState(prevState => ({ isOpen: !prevState.isOpen }))
