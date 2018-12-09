@@ -33,28 +33,28 @@ export default class Example extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="mr-auto mainmenu" navbar>
                 <NavItem>
-                  <NavLink href="/">Dashboard</NavLink>
+                  <NavLink href="#">Dashboard</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Billing</NavLink>
+                  <NavLink href="#">Billing</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Network</NavLink>
+                  <NavLink href="#">Network</NavLink>
                 </NavItem>
               </Nav>
               <Nav className="ml-auto userarea" navbar>
