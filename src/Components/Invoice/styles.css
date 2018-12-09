@@ -31,7 +31,6 @@
 .info .info-desc, .info .info-title
 {
     margin-bottom: 12px;
-    white-space: nowrap;
 }
 .info .info-desc:last-of-type, .info .info-title:last-of-type
 {
