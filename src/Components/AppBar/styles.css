@@ -1,0 +1,61 @@
+.appbar{
+    background-color: #fff;
+    border-bottom: 1px solid #f2f2f4;
+}
+.appbar .navbar-brand,.appbar .navbar-brand:hover, .appbar .navbar-brand:focus{
+    color: #0142aa;
+}
+.appbar .navbar-brand > svg{
+    font-size: 2.5em;
+}
+.mainmenu.navbar-nav .nav-link {
+    color: #2a2a2a;
+    padding-right: .7rem;
+    padding-left: .7rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.mainmenu.navbar-nav .nav-link:focus,
+.mainmenu.navbar-nav .nav-link:hover{
+    color: #3ab2d5;
+}
+.userarea.navbar-nav .nav-link {
+    color: #939393;
+    position: relative;
+}
+.userarea.navbar-nav .nav-link:hover,
+.userarea.navbar-nav .nav-link:focus{
+    color: #000002;
+}
+.userarea.navbar-nav .nav-link .badge{
+    font-size: 50%;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.userarea.navbar-nav .dropdown.nav-item .nav-link svg{
+    font-size: .8rem;
+    margin-left: 10px;
+}
+.userarea.navbar-nav .avatar{
+    float: left;
+    margin-top: -8px;
+    height: 40px;
+    width: 40px;
+}
+@media (max-width: 767px){
+    .userarea.navbar-nav{
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .userarea .nav-link
+    {
+        padding: .5rem 1rem !important;
+    }
+    .userarea.navbar-nav .dropdown-menu {
+        position: absolute;
+        float: right;
+    }
+}
