@@ -1,0 +1,77 @@
+.dm-tabs.nav-tabs{
+    border-bottom: none;
+    margin: 1rem 0;
+    justify-content: flex-end;
+}
+.nav-tabs .nav-link{
+    cursor: pointer;
+    border-color: #d7d8dc;
+    background-color: #f8fbff;
+    color: #969a9b !important;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: .7rem;
+}
+.nav-tabs li.nav-item:first-child > a.nav-link
+{
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.nav-tabs li.nav-item:last-child > a.nav-link
+{
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-left: none;
+}
+.dm-tabs .nav-item.show .nav-link, .dm-tabs .nav-link.active
+{
+    background-color: #fff;
+    color: #3c3c3c !important;
+    border-color: #d7d8dc;
+}
+.stepper{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stepper > li{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.stepper > li.line{
+    flex: 1;
+}
+.stepper > li.line:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 1px;
+    background-color: #d0d0d0;
+    width: 100%;
+}
+.iconStep{
+    display: inline-block;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 500px;
+    line-height: 2.2rem;
+    font-size: 1.2em;
+    padding-top: 3px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+}
+.box-dm{
+    border-radius: 2px;
+    padding: 30px
+}
+@media (max-width: 991px){
+    .box-dm{
+        padding: 15px;
+    }
+}

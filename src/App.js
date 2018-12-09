@@ -14,6 +14,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 // Components
 import AppBar from './Components/AppBar';
 import Invoice from './Components/Invoice';
+import DiagramMap from './Components/DiagramMap';
 
 library.add(fas, fab, far);
 
@@ -25,6 +26,7 @@ class App extends Component {
         <div className="wrapper">
           <Container>
             <Invoice />
+            <DiagramMap />
           </Container>
         </div>
       </div>
